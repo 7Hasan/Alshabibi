@@ -366,7 +366,7 @@ function executeIslamicSearch() {
     if (src === 'dorar') {
         url = `https://dorar.net/hadith/search?q=${encodeURIComponent(q)}`;
     } else if (src === 'islamweb') {
-        url = `https://www.islamweb.net/ar/fatwa/=${encodeURIComponent(q)}`;
+        url = `https://www.islamweb.net/ar/articles/index.php?page=expsearch&stxt=${encodeURIComponent(q)}`;
     } else if (src === 'binbaz') {
         url = `https://binbaz.org.sa/search?q=${encodeURIComponent(q)}`;
     }
